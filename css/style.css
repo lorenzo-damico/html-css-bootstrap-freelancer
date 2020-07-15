@@ -1,10 +1,13 @@
 /* MIX */
+ul {
+  margin: 0;
+}
 .height {
   height: 100%;
 }
 [class*="col-"] {
-  background-color: pink;
-  /* border: 1px solid black; */
+  /* background-color: pink;
+  border: 1px solid black; */
 }
 .text_white {
   color: #fff;
@@ -15,12 +18,20 @@
 .text_right {
   text-align: right;
 }
-.container_70 {
-  width: 75%;
-  margin: auto;
+@media screen and (min-width: 768px) {
+  .container_custom {
+    width: 90%;
+    margin: auto;
+  }
 }
-ul {
-  margin: 0;
+@media screen and (min-width: 1200px) {
+  .container_custom {
+    width: 75%;
+    margin: auto;
+  }
+}
+.bg_green {
+  background-color: #1ABC9C;
 }
 /* /MIX */
 
@@ -40,7 +51,43 @@ ul {
 }
 /* Hero */
 .hero {
-  background-color: #1ABC9C;
-  height: 500px;
+  height: 400px;
+  position: relative;
+}
+.hero .title_wrapper {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* /HEADER/ */
+
+/* MAIN */
+
+/* Portfolio */
+.portfolio .box {
+  margin-bottom: 30px;
+}
+.portfolio .house {
+  background-color: #BA4B63;
+}
+.portfolio .cake {
+  background-color: #1EA4B6;
+}
+.portfolio .circus {
+  background-color: #140F0F;
+}
+.portfolio .joystick {
+  background-color: #1C83C1;
+}
+.portfolio .bank {
+  background-color: #0E38B5;
+}
+.portfolio .submarine {
+  background-color: #CCB2A3;
+}
+
+/* About */
+
+/* /MAIN */
