@@ -1,0 +1,46 @@
+/* MIX */
+.height {
+  height: 100%;
+}
+[class*="col-"] {
+  background-color: pink;
+  /* border: 1px solid black; */
+}
+.text_white {
+  color: #fff;
+}
+.list_none {
+  list-style: none;
+}
+.text_right {
+  text-align: right;
+}
+.container_70 {
+  width: 75%;
+  margin: auto;
+}
+ul {
+  margin: 0;
+}
+/* /MIX */
+
+/* HEADER */
+
+/* header top */
+.header_top {
+  background-color: #2C3E50;
+  height: 70px;
+  line-height: 70px;
+}
+.header_top .logo {
+  display: inline-block;
+}
+.header_top .menu li {
+  display: inline-block;
+}
+/* Hero */
+.hero {
+  background-color: #1ABC9C;
+  height: 500px;
+}
+/* /HEADER/ */
