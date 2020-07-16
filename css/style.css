@@ -1,6 +1,9 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+ul {
+  margin: 0;
+}
 /* MIX */
 .p_top_80 {
   padding-top: 80px;
@@ -13,14 +16,13 @@ body {
   background-color: lightgreen;
 }
 .bg_light_blue {
-  background-color: lightblue;
+  background-color: #2C3E50;
 }
 
 .wrapper_small {
   max-width: 800px;
   margin: auto;
 }
-
 /* HEADER */
 
 /* header top */
@@ -30,11 +32,32 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  height: 70px;
-  line-height: 70px;
+  height: 90px;
+  line-height: 90px;
   color: #fff;
 }
-
+.nav_left a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+@media screen and (min-width: 998px) {
+  .nav_left a {
+    font-size: 28px;
+  }
+}
+.nav_right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.nav_right a:hover {
+  color: #1abc9c;
+}
 /* jumbo */
 .jumbo {
   margin-top: 70px;
