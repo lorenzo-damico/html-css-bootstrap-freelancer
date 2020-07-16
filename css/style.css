@@ -1,5 +1,7 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
 /* MIX */
-
 .p_top_80 {
   padding-top: 80px;
 }
