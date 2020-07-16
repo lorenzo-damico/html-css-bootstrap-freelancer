@@ -1,93 +1,64 @@
 /* MIX */
-ul {
-  margin: 0;
+
+.p_top_80 {
+  padding-top: 80px;
 }
-.height {
-  height: 100%;
+.p_bottom_80 {
+  padding-bottom: 80px;
 }
-[class*="col-"] {
-  /* background-color: pink;
-  border: 1px solid black; */
-}
-.text_white {
-  color: #fff;
-}
-.list_none {
-  list-style: none;
-}
-.text_right {
-  text-align: right;
-}
-@media screen and (min-width: 768px) {
-  .container_custom {
-    width: 90%;
-    margin: auto;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container_custom {
-    width: 75%;
-    margin: auto;
-  }
-}
+
 .bg_green {
-  background-color: #1ABC9C;
+  background-color: lightgreen;
 }
-/* /MIX */
+.bg_light_blue {
+  background-color: lightblue;
+}
+
+.wrapper_small {
+  max-width: 800px;
+  margin: auto;
+}
 
 /* HEADER */
 
 /* header top */
 .header_top {
-  background-color: #2C3E50;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
   height: 70px;
   line-height: 70px;
+  color: #fff;
 }
-.header_top .logo {
-  display: inline-block;
-}
-.header_top .menu li {
-  display: inline-block;
-}
-/* Hero */
-.hero {
-  height: 400px;
-  position: relative;
-}
-.hero .title_wrapper {
-  width: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-/* /HEADER/ */
 
-/* MAIN */
+/* jumbo */
+.jumbo {
+  margin-top: 70px;
+  padding: 70px 0;
+}
+.jumbo_text {
+  max-width: 900px;
+  padding: 0 15px;
+  margin: auto;
+  text-align: center;
+}
 
-/* Portfolio */
-.portfolio .box {
+/* SECTIONS */
+
+/* portfolio */
+
+.box_portfolio {
+  height: 250px;
+  background-color: blue;
   margin-bottom: 30px;
 }
-.portfolio .house {
-  background-color: #BA4B63;
-}
-.portfolio .cake {
-  background-color: #1EA4B6;
-}
-.portfolio .circus {
-  background-color: #140F0F;
-}
-.portfolio .joystick {
-  background-color: #1C83C1;
-}
-.portfolio .bank {
-  background-color: #0E38B5;
-}
-.portfolio .submarine {
-  background-color: #CCB2A3;
-}
 
-/* About */
+/* FOOTER */
 
-/* /MAIN */
+.footer_bottom {
+  background-color: blue;
+  color: #fff;
+  padding: 20px 0;
+}
